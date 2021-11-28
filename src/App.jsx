@@ -14,7 +14,7 @@ export const App = () => {
 
   return (
     <>
-      {console.log("テスト！なみかっこで囲むとJavaScriptを記述できる。")}
+      {console.log(`レンダリング！${num + 1}回目`)}
       <h1 style={{ color:"red" }}>Hello world!</h1>
       {/* <ColoredMessage color="blue" message="テスト！　ブルー" /> */}
       {/* <ColoredMessage color="pink" message="テスト！　ピンク" /> */}
