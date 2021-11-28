@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { ColoredMessage } from "./components/ColoredMessage";
 import { CssModules } from "./components/CssModules";
+import { Memo } from "./components/Memo";
 
 //const App = () => {
 export const App = () => {
@@ -31,6 +32,7 @@ export const App = () => {
       <button　onClick={onClickButton}>ボタン</button>
       <p>{num}</p>
       <CssModules />
+      <Memo />
     </>
   )
 };
