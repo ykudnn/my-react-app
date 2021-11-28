@@ -2,11 +2,16 @@
 
 //const App = () => {
 export const App = () => {
+  const onClickButton = () => {
+    alert();
+  };
 //  return null;
   return (
-    <div>
+    <>
+      {console.log("テスト！なみかっこで囲むとJavaScriptを記述できる。")}
       <h1>Hello world!</h1>
       <p>aa</p>
-    </div>
+      <button　onClick={onClickButton}>ボタン</button>
+    </>
   )
 };
