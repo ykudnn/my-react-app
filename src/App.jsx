@@ -1,3 +1,5 @@
+//memo コンポーネントファイルの拡張子はjsxにする
+
 //const App = () => {
 export const App = () => {
 //  return null;
