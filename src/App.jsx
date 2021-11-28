@@ -1,12 +1,15 @@
 //memo コンポーネントファイルの拡張子はjsxにする
 
 //import reactDom from "react-dom";
+import { useState } from "react";
 import { ColoredMessage } from "./components/ColoredMessage";
 
 //const App = () => {
 export const App = () => {
+  const [num, setNum] = useState(0);
   const onClickButton = () => {
-    alert();
+    // alert();
+    setNum(num + 1);
   };
 
   return (
@@ -18,6 +21,7 @@ export const App = () => {
       <ColoredMessage color="blue">ブルー（childrenで指定）</ColoredMessage>
       <ColoredMessage color="pink">ピンク（childrenで指定）</ColoredMessage>
       <button　onClick={onClickButton}>ボタン</button>
+      <p>{num}</p>
     </>
   )
 };
