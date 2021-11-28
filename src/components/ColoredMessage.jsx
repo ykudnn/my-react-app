@@ -1,7 +1,8 @@
-export const ColoredMessage = (props) => {
+// 引数の()の段階で分割代入
+export const ColoredMessage = ({ color, children }) => {
 
   // Propsを分割代入
-  const { color, children } = props;
+  // const { color, children } = props;
 
   const contentStyle = {
     // color: color, 
