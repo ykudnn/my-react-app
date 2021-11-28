@@ -1,5 +1,6 @@
 // 引数の()の段階で分割代入
 // Propsをdestructureするかどうか問題 P.115
+// normal export P.122
 export const ColoredMessage = ({ color, children }) => {
 
   // Propsを分割代入
