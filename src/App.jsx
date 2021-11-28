@@ -13,8 +13,10 @@ export const App = () => {
     <>
       {console.log("テスト！なみかっこで囲むとJavaScriptを記述できる。")}
       <h1 style={{ color:"red" }}>Hello world!</h1>
-      <ColoredMessage color="blue" message="テスト！　ブルー" />
-      <ColoredMessage color="pink" message="テスト！　ピンク" />
+      {/* <ColoredMessage color="blue" message="テスト！　ブルー" /> */}
+      {/* <ColoredMessage color="pink" message="テスト！　ピンク" /> */}
+      <ColoredMessage color="blue">ブルー（childrenで指定）</ColoredMessage>
+      <ColoredMessage color="pink">ピンク（childrenで指定）</ColoredMessage>
       <button　onClick={onClickButton}>ボタン</button>
     </>
   )
